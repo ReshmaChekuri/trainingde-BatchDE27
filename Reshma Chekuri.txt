@@ -1,0 +1,13 @@
+08/25/2022
+Q1) what is the difference between Geo redundant storage (GRS)and Zone redundant storage(ZRS)
+
+ If our storage account is configured  to GRS,if primary region fails then we can get backup from secondary region.
+ If our storage account is configured  to ZRS ,if data center fails in one zone of a region then we can get back up from other zone of the same region.
+
+
+08/26/2022
+
+Q1)As storage account can have multiple containers,on Storage Account we have Read Access only, container level we have write access. so can i access the data in the container?
+
+No we can't get write access to containers has storage account access has high priority than any other storage type which is only read access in this case.
+ 
